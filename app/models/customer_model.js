@@ -12,7 +12,7 @@ const CustomerSchema = new Schema({
   certificates: [{
     type: Schema.Types.ObjectId,
     ref: 'Certificate',
-    default: null,
+    default: [],
   }],
 });
 

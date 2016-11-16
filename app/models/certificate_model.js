@@ -2,7 +2,7 @@ import mongoose, { Schema } from 'mongoose';
 
 const CertificateSchema = new Schema({
   customer: {
-    type: Schema.types.ObjectId,
+    type: Schema.Types.ObjectId,
     ref: 'Customer',
     default: null,
   },
